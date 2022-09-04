@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {}
+
+body {
+
+    background: #111013;
+    font-family: 'Roboto', sans-serif;
+    margin: -8px;
+    overflow-x: hidden;
+
+}
+
+.header {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #232229;
+    margin-top: 50px;
+    width: 50%;
+    border-radius: 20px;
+    border: #e8ebe4 solid 3px;
+}
+
+nav {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+        0 2px 2px rgba(0, 0, 0, 0.12),
+        0 4px 4px rgba(0, 0, 0, 0.12),
+        0 8px 8px rgba(0, 0, 0, 0.12),
+        0 16px 16px rgba(0, 0, 0, 0.12);
+    transition: all 1s cubic-bezier(0, 0, 0, 1.78) 0s;
+
+}
+
+nav:hover{
+        scale: 1.1;
+
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+      0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12),
+      0 8px 8px rgba(0, 0, 0, 0.12),
+      0 16px 16px rgba(0, 0, 0, 0.12),
+      0 32px 32px rgba(0, 0, 0, 0.12);
+}
+ 
+nav h1 {
+    color: #999ac6;
+    font-size: xx-large;
+}
+
+nav h2 {
+    color: #b8bacf;
+    font: xx-large;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+nav h2:hover {
+    color: #d2d5dd;
+
+}
