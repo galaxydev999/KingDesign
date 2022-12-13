@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html {}
-
 body {
 
     background: #111013;
@@ -58,11 +56,16 @@ nav h1 {
 nav h2 {
     color: #b8bacf;
     font: xx-large;
-    transition: ease-in-out 0.3s;
+    transition: ease-out .5s;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav h2:hover {
     color: #d2d5dd;
 
+    
 }
